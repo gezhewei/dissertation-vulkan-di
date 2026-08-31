@@ -1,0 +1,35 @@
+/.deps/
+/.buildcheck/
+/.tmp/
+/build/
+/.vs/
+/dist/
+/pkgstage/
+/tmp/
+/nvidia_benchmark_package/
+/benchmark_nvidia_results/
+/merged-dissertation/
+/src_original_backup/
+
+# Only the Sponza scene required by the paper configuration is versioned.
+/scenes/*
+!/scenes/Sponza/
+!/scenes/Sponza/**
+
+# Local benchmark and diagnostic outputs.
+/*.csv
+/*.png
+/files.csv
+
+# Local package/bootstrap helpers and editor state.
+/install_pkgs.py
+/marking_guidance.txt
+/.idea/
+/.vscode/
+
+# Common CMake and Visual Studio generated files.
+/CMakeFiles/
+/CMakeCache.txt
+/*.sln
+/*.vcxproj*
+/*.user

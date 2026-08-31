@@ -20,6 +20,7 @@
 /*.csv
 /*.png
 /files.csv
+/benchmark_nvidia.py
 
 # Local package/bootstrap helpers and editor state.
 /install_pkgs.py
